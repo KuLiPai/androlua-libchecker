@@ -1,0 +1,43 @@
+for _,v in pairs(import "mod.material") do
+  import("com.google.android.material."..v..".*")
+end
+cjson=require "cjson"
+import {
+  "android.app.*",
+  "android.os.*",
+  "android.widget.*",
+  "android.view.*",
+  "android.graphics.*",
+  "android.net.*",
+  "android.content.*",
+  "android.graphics.drawable.*",
+  "android.animation.*",
+  "android.util.TypedValue",
+  "java.io.*",
+  "java.lang.*",
+  "androidx.core.app.*",
+  "androidx.appcompat.app.*",
+  "android.provider.*",
+  "android.content.res.ColorStateList",
+  "androidx.core.widget.NestedScrollView",
+  "androidx.coordinatorlayout.widget.CoordinatorLayout",
+  "androidx.viewpager.widget.ViewPager",
+  "androidx.swiperefreshlayout.widget.SwipeRefreshLayout",
+  "androidx.appcompat.widget.*",
+  "androidx.recyclerview.widget.*",
+  "androidx.constraintlayout.motion.widget.MotionLayout$DecelerateInterpolator",
+  "github.daisukiKaffuChino.*",
+  "github.daisukiKaffuChino.utils.LuaThemeUtil",
+  "android.view.animation.*",
+   "android.animation.*",
+  "androidx.vectordrawable.graphics.drawable.*",
+  "android.webkit.WebView",
+  "com.caverock.androidsvg.*",--svg
+  "com.airbnb.lottie.LottieAnimationView",--lottie
+  "com.bumptech.glide.request.*",--glide
+  "com.bumptech.glide.*",--
+  "com.bumptech.glide.request.target.*",--
+  "com.fastscroll.*",--fast
+  "com.fastscroll.helper.*",
+  "com.fastscroll.FastScrollDelegate$IndicatorPopup",
+}
